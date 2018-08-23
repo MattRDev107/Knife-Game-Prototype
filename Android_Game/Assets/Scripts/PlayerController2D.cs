@@ -25,6 +25,7 @@ public class PlayerController2D : MonoBehaviour {
     private Score score;
     private GameOver gameOver;
 
+    // Start in the begin of the game start
     void Start() {
         gameOver = GameObject.Find("GameOver").GetComponent<GameOver>();
         score = GameObject.Find("Canvas").GetComponent<Score>();
